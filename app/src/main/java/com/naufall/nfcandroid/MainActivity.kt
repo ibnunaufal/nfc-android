@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         enableNfcForegroundDispatch()
     }
-add
+
     override fun onPause() {
         disableNfcForegroundDispatch()
         super.onPause()
